@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+}
+
+#Content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+#contentleft {
+    width: 30%;
+    
+    background-color: orange;
+    margin-top: 15px;
+    
+    box-shadow: -1px 4px 30px -5px;
+    
+
+}
+#contentright {
+    width: 70%;
+    
+   
+    color: black;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+#image {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border-right: 0px white groove;
+    
+    opacity: 1;
+    
+
+}
+
+#left1 {
+    position: relative;
+    
+    border-bottom: 1px white;
+    margin-bottom: 15px;
+
+
+}
+
+#name {
+    position: absolute;
+    bottom: 0px;
+    color: aliceblue;
+    margin: 5px
+}
+
+h3,
+h2 {
+    color: whitesmoke;
+    margin-top: 12px;
+}
+
+#left2 {
+    margin: 5px;
+    border-bottom: grey solid 1px;
+
+
+}
+
+#left3 {
+    margin: 5px;
+    border-bottom: grey solid 1px;
+
+}
+
+#left4 {
+    margin: 5px;
+    ;
+}
+
+i {
+    color: #00456f;
+}
+
+#rightintro {
+    padding-left: 20px;
+}
+
+
+
+
+#rightup,
+#rightmid,
+#rightfoot {
+    padding: 30px;
+
+    box-shadow: -1px 4px 20px -5px;
+}
+
+#rightmid,
+#rightfoot {
+    margin-top: 15px;
+    
+}
+#rightfoot {
+margin-bottom: 7px;
+
+};
+.colorcontent1 {
+    color: black;
+}
+
+.colorcontent2 {
+    color: #00456f;
+}
+
+.contententrightheading {
+    margin-bottom: 30px;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #303030;
+    padding: 8px;
+    text-align: left;
+
+}
+
+tr:nth-child(even) {
+    background-color: #D8D8D8;
+}
+
+.rightfootcolor {
+    color: #303030;
+}
+
+#footer {
+    
+    margin :0px 0px;
+    
+    background-color: #00456f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer>h4{
+    color: aliceblue;
+}
+#footer>h2>span>a>i{
+    color:#D8D8D8;
+    margin: 0px 10px ;
+}
+@media (max-width:990px) {
+    #Content {
+        flex-direction: column;
+    }
+
+    #contentleft {
+        width: 100%;
+    }
+
+    #contentright {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    i,.icon{
+        margin-right: 30px;
+    }
+}
